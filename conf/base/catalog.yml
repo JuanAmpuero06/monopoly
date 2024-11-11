@@ -1,5 +1,5 @@
-base_clientes_monopoly:
+Monopoly:
   type: pandas.ParquetDataset
-  filepath: data/01_raw/Base_clientes_Monopoly-0.parquet
+  filepath: data/01_raw/Monopoly.parquet
   load_args:
     engine: pyarrow
