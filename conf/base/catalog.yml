@@ -1,5 +1,9 @@
-Monopoly:
+monopoly:
   type: pandas.ParquetDataset
   filepath: data/01_raw/Monopoly.parquet
   load_args:
     engine: pyarrow
+
+monopoly_clean:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/monopoly_clean.parquet
