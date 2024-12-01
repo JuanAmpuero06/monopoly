@@ -1,1 +1,1 @@
-{"monopoly": {"rows": 51124, "columns": 574, "file_size": 47935742}, "monopoly_clean": {"rows": 51124, "columns": 572, "file_size": 42126111}}
+{"monopoly_clean": {"rows": 51124, "columns": 572, "file_size": 42126111}, "filtered_data": {"rows": 51124, "columns": 60, "file_size": 3503384}}

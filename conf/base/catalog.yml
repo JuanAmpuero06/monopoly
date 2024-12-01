@@ -7,3 +7,7 @@ monopoly:
 monopoly_clean:
   type: pandas.ParquetDataset
   filepath: data/02_intermediate/monopoly_clean.parquet
+
+filtered_data:
+  type: pandas.ParquetDataset
+  filepath: data/03_primary/filtered_data.parquet
