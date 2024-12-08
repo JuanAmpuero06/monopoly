@@ -1,3 +1,4 @@
+#Dataset catalog
 monopoly:
   type: pandas.ParquetDataset
   filepath: data/01_raw/Monopoly.parquet
@@ -11,3 +12,18 @@ monopoly_clean:
 filtered_data:
   type: pandas.ParquetDataset
   filepath: data/03_primary/filtered_data.parquet
+
+
+# Output datasets
+X_test_balanced:
+  type: pandas.ParquetDataset
+  filepath: data/05_model_input/X_test_balanced.parquet
+
+y_test_balanced:
+  type: pandas.ParquetDataset
+  filepath: data/05_model_input/y_test_balanced.parquet
+
+#Models
+xgb_model:
+  type: pickle.PickleDataset
+  filepath: data/06_models/xgb_model.pkl
